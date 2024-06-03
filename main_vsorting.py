@@ -5,7 +5,7 @@ from all_sortingsv import get_array_sort
 
 Ntimes = 10
 Nsize = 1000
-nameidx = ['ps', 'ea', 'cv', 'eo']
+nameidx = ['ps', 'ea', 'cv', 'eo', 'tbd']
 
 for nameid in nameidx:
     testvec = np.linspace(0, 1, 101)

@@ -3,6 +3,9 @@ import numpy as np
 
 def get_array_sort(nameid=None):
 
+    if nameid == 'tbd':
+        pass
+
     if nameid == 'ps':
         def array_sort(v):
             srtd_v=[]
